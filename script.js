@@ -37,9 +37,13 @@
     const currTime = parseInt(moment().format("H"));
     const container = $(".container");
     
-    const schedule = {
+    const schedule = JSON.parse(localStorage.getItem("schedule"));
+    if (!schedule) {
+        schedule = [];
+    }
+    // const schedule = {
         
-    };
+    // };
     
     // WHEN I scroll down
     // THEN I am presented with time blocks for standard business hours
@@ -75,10 +79,10 @@
             schedule [thisHour] = userInput;
             console.log (schedule);
             // THEN the text for that event is saved in local storage
+            localStorage.setItem("schedule", JSON.stringify(schedule));
             // WHEN I refresh the page
             // THEN the saved events persist
-            localStorage.setItem("schedule", JSON.stringify(schedule));
-    
+            /////??????????????????????????
             }
         });  
 
