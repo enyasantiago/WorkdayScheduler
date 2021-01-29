@@ -37,7 +37,7 @@
     const currTime = parseInt(moment().format("H"));
     const container = $(".container");
     
-    const schedule = JSON.parse(localStorage.getItem("schedule"));
+    var schedule = JSON.parse(localStorage.getItem("schedule"));
     if (!schedule) {
         schedule = [];
     }
@@ -71,19 +71,20 @@
         // WHEN I click the save button for that time block
         //const saveBtn = $(".saveBtn");
         $(".saveBtn").on("click", function(event){
+            
             let userInput = textarea.val();
             schedule [thisHour] = userInput;
+            
             // THEN the text for that event is saved in local storage
             // WHEN I refresh the page
             // THEN the saved events persist
             localStorage.setItem("schedule", JSON.stringify(schedule));
+            console.log (userInput);
     
-        });  
-
-        
+        });      
     }
     
-    
+   
           
 
        
