@@ -1,11 +1,12 @@
 # WorkdayScheduler
-# Overview
+## Overview
 
 https://enyasantiago.github.io/WorkdayScheduler/
 
 A simple calendar application that allows a user to save events for each hour of an 8 hour work day. Current date is displayed. The calendar is color coded to show past, present and future hours. User input is saved to local storage. 
 
-# Technologies Used
+## Technologies Used
+
 * HTML
 * Bootstrap
 * CSS
