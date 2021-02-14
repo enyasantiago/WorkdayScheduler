@@ -14,3 +14,4 @@ A simple calendar application that allows a user to save events for each hour of
 * Chrome 
 * JQuery
 
+![image](https://user-images.githubusercontent.com/15931465/107867255-5869e380-6e47-11eb-9d84-f464899da7f1.png)
