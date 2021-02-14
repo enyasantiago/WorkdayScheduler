@@ -1,32 +1,5 @@
 
-// adding comment to update github
-
-// ## Date Object API
-
-// I highly recommend that you guys use the date object as it is relatively easy
-// to use and will be on more interviews than MomentJS will be. It is mainly
-// because it is part of the native JS engine functionality.
-
-// const time = new Date()
-// const options = {
-    //     weekday: "long",
-    //     month: "long",
-    //     day: "numeric",
-    //     year: "numeric"
-    // }
-    // const display_time = time.toLocaleDateString('en-US', options)
-    // console.log(display_time)
-    
-    // ```
-    // var monthsArray = ["January", "February", "March", "April", "May", "June", "July", "August", "Septemeber", "October", "November", "Decmeber"];
-    // var daysArray = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    // var displayMonth = monthsArray[(new Date()).getMonth()];
-    // var displayDay = daysArray[(new Date()).getDay()];
-    // var displayDate = new Date().getDate()
-    // var displayYear = new Date().getFullYear();
-    // var currentDay = document.getElementById ("currentDay");
-    // currentDay.textContent = `Today is ${displayDay}, ${displayMonth} ${displayDate}, ${displayYear}`;
-    
+   
     // GIVEN I am using a daily planner to create a schedule
     // WHEN I open the planner
     // THEN the current day is displayed at the top of the calendar
